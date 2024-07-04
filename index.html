@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificando Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <header>
+        <img class="logo__imagem" src ="assets/logo.png" alt="logo da empresa alura">
+    
+    </header>
+
+      
+    <main class="layout">
+
+        <section class="layout__conteudo">
+            <input id="inputTexto" class="apresentacao" type="text" placeholder="Digite seu texto:">
+                
+            <div class="layout__botao">
+                <h1 class="layout__botao__txt">Apenas letras minúsculas e sem acento.</h1>
+            
+                <div class="layout__botao__links"> 
+                    <button onclick="textoCrip()" class="layout__botao__crip">Criptografar</button>
+                    <button onclick="textoDescrip()" class="layout__botao__descrip">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+        <img class="apresentacao__imagem" src ="./assets/img .png" alt="imagem de um boneco com lupa">
+        
+        <h2 id="none" class="container__txt__one">Nenhuma mensagem encontrada </h2>
+        <input id="outputTexto" class="container__txt__two" type="text" placeholder="Digite um texto que você deseja criptografar ou descriptografar.">
+        
+        <h3 id="resposta"></h3>
+        
+
+       
+        <input id="input" type="text" /> <button onclick="copy()" id="textCopy" class="copy">Copy</button>
+        </div>
+    </main>
+   
+    <footer class="rodape">
+        <p> Desenvolvido por Marianne Firmino</p>
+    
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
