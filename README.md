@@ -10,4 +10,5 @@ Criptografia de mensagens utilizando diferentes algoritmos de segurança.
 Descriptografia de mensagens criptografadas.
 Interface amigável e de fácil utilização.
 
-![image](https://github.com/marianneoliveira93/decodificador-de-texto/assets/39701279/28997444-6bcc-44eb-a062-531b4526eea6)
+![image](https://github.com/marianneoliveira93/decodificador-de-texto/assets/39701279/30e50686-096f-440f-beb2-9463b0fd144d)
+
