@@ -3,33 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decodificando de Texto</title>
+    <title>Decodificador de Texto</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-   
+<body> 
     <header>
         <img class="logo__imagem" src ="assets/logo.png" alt="logo da empresa alura">
-    
     </header>
-
-      
+     
     <main class="layout">
-
         <section class="layout__conteudo">
             <input id="inputTexto" class="apresentacao" type="text" placeholder="Digite seu texto:">
                 
-            <div class="layout__botao">
-                <h1 class="layout__botao__txt">Apenas letras minúsculas e sem acento.</h1>
+            <div class="informacao">
+                <h1 class="info_txt">Apenas letras minúsculas e sem acento.</h1>
             
-                <div class="layout__botao__links"> 
-                    <button onclick="textoCrip()" class="layout__botao__crip">Criptografar</button>
-                    <button onclick="textoDescrip()" class="layout__botao__descrip">Descriptografar</button>
+
+            <div class="botoes"> 
+                <button onclick="textoCrip()" class="botao__crip">Criptografar</button>
+                <button onclick="textoDescrip()" class="botao__descrip">Descriptografar</button>
                 </div>
             </div>
+
         </section>
-        <div class="container">
+       
+        <section class="container">
         <img class="apresentacao__imagem" src ="./assets/img .png" alt="imagem de um boneco com lupa">
         
         <h2 id="none" class="container__txt__one">Nenhuma mensagem encontrada </h2>
@@ -40,7 +38,7 @@
 
        
         <input id="input" type="text" /> <button onclick="copy()" id="textCopy" class="copy">Copiar</button>
-        </div>
+        </section>
     </main>
    
     <footer class="rodape">
