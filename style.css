@@ -3,15 +3,15 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
 
 }
 
 .logo__imagem{
 margin: 35px 0px 0px 20px;
-padding-top: 1%
-}
+padding-top: 0.2%
 
+}
 
 input{
     color: #0A3871;
@@ -39,17 +39,19 @@ input{
 
 
 body {
-    
+    height: 100vh;
     box-sizing: border-box;
     background-color: #E5E5E5;
     color: #0A3871;
+    
 }
 
 .layout {
-    padding: 3% 7%;
+    padding: 1% 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100;
   
 }
 
@@ -61,47 +63,47 @@ body {
     gap:  240px;
 }
 
+::placeholder{
+    color:#0A3871
+        
+}
+
+
 .apresentacao {
+    align-items: center;
+     color: #0A3871;
     display: block;
 }
 
-.layout__conteudo__titulo {
-    text-align:start;
-    font-size: 2rem;
-    font-family: "Inter", sans-serif;
   
-}
-
-
-.layout__botao {
+.informacao {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
-    
 
 }
 
-.layout__botao__txt{
+.info_txt{
     font-size: 0.75rem;
     font-family: "Inter", sans-serif;
     padding:1%;
 }
 
-.layout__botao__links{
-
+.botoes{
+    
     display: flex;
+    margin-top: 18px;
     justify-content: space-between;
 }
 
-.layout__botao__crip{
-    display: flex;
-    justify-content: center;
-    background-color: #0A3871;
+.botao__crip{
+   background-color: #0A3871;
     border: 2px solid white;
     color: #D8DFE8;
     width: 40%;
     height: 67px;
+    cursor: pointer;
     text-align: center;
     border-radius: 24px;
     font-size: 1rem;
@@ -109,30 +111,29 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.layout__botao__crip:hover{
+.botao__crip:hover{
     background-color: #356EA9;
 }
 
-.layout__botao__descrip{
+.botao__descrip{
     
     background-color: #D8DFE8;
     color:#0A3871 ;
     border: 2px solid #0A3871;
     width: 40%;
     height: 67px;
+    cursor: pointer;
     text-align: center;
     border-radius: 24px;
     font-size: 1rem;
     padding: 24px;
     font-family: "Inter", sans-serif;
-
 }
 
-.layout__botao__descrip:hover{
+.botao__descrip:hover{
 
     background-color:#DCDCDC;
 }
-
 
 .copy{
     background-color: #D8DFE8;
@@ -140,6 +141,7 @@ body {
     border: 2px solid #0A3871;
     width: 60%;
     height: 67px;
+    cursor: pointer;
     text-align: center;
     border-radius: 24px;
     font-size: 1rem;
@@ -168,7 +170,6 @@ body {
     background-color: white;
     border: 1px solid white;
     border-radius: 34px;   
- 
     
 }
 
@@ -181,8 +182,7 @@ body {
     text-align: center;
     line-height: 1;
     margin: 66px 20px 15px 12px;
-    
-    
+        
 }
 
 .container__txt__two{
@@ -201,8 +201,10 @@ h4 {
 .rodape{
     background-color:#B0C4DE;
     color:#000000;
-    padding: 0.5%;
     text-align: center;
+    padding: 0.2%;
+    font-size: 1rem;
+    margin-top: auto;
     font-family: "Inter", sans-serif;
     
 }
