@@ -201,10 +201,25 @@ h4 {
 .rodape{
     background-color:#B0C4DE;
     color:#000000;
-    text-align: center;
     padding: 0.2%;
     font-size: 1rem;
     margin-top: auto;
     font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape p {
+    margin-right: 0.3cm;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.redes i{
+    font-size: 18px;
+    color: #0a66c2;
     
 }
