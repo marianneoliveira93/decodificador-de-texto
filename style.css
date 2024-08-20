@@ -94,7 +94,8 @@ body {
     
     display: flex;
     margin-top: 18px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 50px;
 }
 
 .botao__crip{
