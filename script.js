@@ -48,3 +48,7 @@ function copy() {
     navigator.clipboard.writeText("copiarTexto.value");
     alert("Texto copiado");
 }
+
+
+let info = {linkedin: "https://www.linkedin.com/in/marianne-firmino-a36863174/"};
+document.getElementyById('linkedin').href = info.linkedin;
