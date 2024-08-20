@@ -45,8 +45,8 @@ function textoDescrip() {
 function copy() {
     let copiarTexto = document.querySelector('#outputTexto');
     copiarTexto.select();
-    navigator.clipboard.writeText("copiarTexto.value");
-    alert("Texto copiado");
+    document.execCommand('copy');
+   
 }
 
 
