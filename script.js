@@ -7,9 +7,6 @@ button1.onclick = textoCrip;
 var button2 = document.querySelector('.layout__botao__descrip');
 button2.onclick = textoDescrip;
 
-document.getElementById('none').innerHTML = '';
-inputTexto.focus();
-
 function textoCrip() {
     if (inputTexto.value.length == 0) {
         document.getElementById('none').innerHTML = '<h2 id="none">Nenhuma mensagem encontrada</h2>';
