@@ -1,6 +1,6 @@
-# decodificador-de-texto
-Desafio de do curso 'Iniciante em Programação'
+Decodificador de texto 🔐🚀
 
+Desafio de do curso 'Iniciante em Programação' 👩🏾‍💻
 
 O Decodificador de Texto é uma ferramenta que permite criptografar e descriptografar mensagens de forma simples e eficiente. 
 Este projeto foi desenvolvido para garantir a segurança na comunicação através da codificação de mensagens, tornando-as inacessíveis para pessoas não autorizadas.
