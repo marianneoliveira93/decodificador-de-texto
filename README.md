@@ -12,12 +12,15 @@ Interface amigável e de fácil utilização.
 
 Painel geral do decodificador:
 
-![image](https://github.com/user-attachments/assets/0cdc007c-76fb-4198-8d0e-7e47d1ba66e1)
+![image](https://github.com/user-attachments/assets/46b2189b-34d4-429b-a7ff-905c99a093bd)
+
 
 Mensagem sendo criptografada:
 
-![image](https://github.com/user-attachments/assets/33b708e0-cc44-4431-9081-0e2a6d558557)
+![image](https://github.com/user-attachments/assets/5a243901-5edc-40b7-a088-57077820a5ef)
+
 
 Mensagem sendo descriptografada:
 
-![image](https://github.com/user-attachments/assets/7d01c48b-001a-4883-b1f7-9905beb41cc7)
+![image](https://github.com/user-attachments/assets/a1784b4b-9201-4abe-b624-5081117d1e5e)
+
